@@ -14,7 +14,6 @@ logFiddle.prototype.setCss = function(css) {
 }
 logFiddle.prototype.log = function(s) {
     var div = document.createElement("div");
- 
     var cssStr = "";
     for ( var key in this.css ) {
         cssStr = cssStr + key + ":" + this.css[key] + ";";
