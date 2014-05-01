@@ -27,7 +27,7 @@ logFiddle.prototype.log = function(s) {
 logFiddle.prototype.consoleOverride = function() {
     var _this = this;
     console.log = function() {
-        this.log.apply(_this, arguments);
+        _this.log.apply(_this, arguments);
     };
 }
 (function(){
