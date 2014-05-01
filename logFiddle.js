@@ -30,4 +30,4 @@ logFiddle.prototype.consoleOverride = function() {
     console.log = function() {
         this.log.apply(_this, arguments);
     };
-}a
+}
