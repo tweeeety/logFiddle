@@ -30,7 +30,6 @@ logFiddle.prototype.consoleOverride = function() {
         _this.log.apply(_this, arguments);
     };
 }
-(function(){
-    var lf = new logFiddle();
-    lf.consoleOverride();
-});
+var lf = new logFiddle();
+lf.consoleOverride();
+
